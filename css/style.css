@@ -1,0 +1,16 @@
+/* Custom styles for Cap Coding Blog Page */
+
+/* Keep the page from creating accidental horizontal scrolling on small screens. */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* Make local project images behave predictably inside Bootstrap layouts. */
+.carousel-item img {
+  display: block;
+  max-width: 100%;
+}
